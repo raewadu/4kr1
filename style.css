@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.timer-value {
+    width: 100px;
+    height: 20px;
+}
+input {
+    font-size: 40px;
+    padding: 5px;
+}
+button {
+    padding: 10px 20px;
+}
+.block {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.active {
+    background-color: black;
+}
