@@ -37,6 +37,7 @@ let seconds = 0
 
 startBtn.addEventListener('click', () => {
   if (interval) return;
+  if (inputTimer.value=='') return
 
   if (seconds === 0) { 
     seconds = Number(inputTimer.value)
